@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Poppins font -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- Montserrat font -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Customer Survey</h1>
+        <p id="description">Thank you for purchasing our product. Please take a few minutes to rate us so we can serve you better.</p>
+
+        <div class="divider"></div>
+
+        <div id="rates-container">
+            <p><span class="rate">1</span></p>
+            <p><span class="rate">2</span></p>
+            <p><span class="rate">3</span></p>
+            <p><span class="rate">4</span></p>
+            <p><span class="rate">5</span></p>
+        </div>
+        
+        <form action="#" id="survey-form">
+            <section>
+                <article class="question">
+                    <label for="a1" class="question-1">How satisfied are you with our product?</label><input type="radio" name="answer-1" id="a1" value="1"><input type="radio" name="answer-1" id="a1" value="2"><input type="radio" name="answer-1" id="a1" value="3"><input type="radio" name="answer-1" id="a1" value="4"><input type="radio" name="answer-1" id="a1" value="5">
+                </article>
+                <article class="question">
+                    <label for="a1" class="question-1">How well does our product meet your needs?</label><input type="radio" name="answer-1" id="a1" value="1"><input type="radio" name="answer-1" id="a1" value="2"><input type="radio" name="answer-1" id="a1" value="3"><input type="radio" name="answer-1" id="a1" value="4"><input type="radio" name="answer-1" id="a1" value="5">
+                </article>
+                <article class="question">
+                    <label for="a1" class="question-1">How would you rate the value for money of the product?</label><input type="radio" name="answer-1" id="a1" value="1"><input type="radio" name="answer-1" id="a1" value="2"><input type="radio" name="answer-1" id="a1" value="3"><input type="radio" name="answer-1" id="a1" value="4"><input type="radio" name="answer-1" id="a1" value="5">
+                </article>
+            </section>
+
+            <div class="divider"></div>
+
+            <section>
+                <p class="center">
+                    Which three features are the most valuable to you?
+                </p>
+
+                <div class="choices">
+                    <input type="checkbox" id="cb1" value="Feature A"><label for="cb1">Feature A</label>
+                </div>
+                <div class="choices">
+                    <input type="checkbox" id="cb2" value="Feature B"><label for="cb2">Feature B</label>
+                </div>
+                <div class="choices">
+                    <input type="checkbox" id="cb2" value="Feature C"><label for="cb3">Feature C</label>
+                </div>
+
+            </section>
+
+            <div class="divider"></div>
+
+            <section>
+                <p class="center">If you could change just one thing about our product, what would it be?</p>
+                <textarea name="recommendation" id="recommendation" cols="30" rows="8" placeholder="Type your answer here..."></textarea>
+            </section>
+
+            <div class="divider"></div>
+            
+            <section>
+                <div class="cta">
+                    <label for="name" id="name-label">Name</label>
+                    <input type="text" id="name" required placeholder="Enter your name here...">
+                </div>
+                <div class="cta">
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" id="email" required placeholder="Enter your email here...">
+                </div>
+                <div class="cta">
+                    <label for="number" id="number-label">Age</label>
+                    <input type="number" id="number" min="12" max="107" placeholder="How old are you?">
+                </div>
+                <div class="cta">
+                    <label for="product">Product</label>
+                    <select name="product" id="dropdown">
+                        <option value="#" disabled>What product did you purchase?</option>
+                        <option value="Phone">Phone</option>
+                        <option value="Tablet">Tablet</option>
+                        <option value="Television">Television</option>
+                        <option value="Laptop">Laptop</option>
+                    </select>
+                </div>
+            </section>
+            <div class="divider"></div>
+            <div class="submit-button">
+                <input type="submit" name="submit" id="submit">
+            </div>
+        </form>
+          
+    </div>
+</body>
+</html>
