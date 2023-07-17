@@ -3,7 +3,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 body {
@@ -51,6 +51,8 @@ p {
     font-weight: 700;
 }
 
+
+
 /*  Typography Section */
 .bold {
     font-weight: 800;
@@ -58,6 +60,22 @@ p {
 
 .small-text {
     font-size: 0.75rem;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.divider.double-indent {
+    margin-left: 2em; 
+}
+
+.align  {
+    margin-top: 3px;
 }
 
 /* Divider Section */
@@ -69,6 +87,7 @@ p {
 .medium {
     height: 5px;
 }
+
 .large {
     height: 10px;
 }
@@ -76,4 +95,8 @@ p {
 .medium, .large {
     background-color: black;
     border: 0;
+}
+
+.daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
 }
