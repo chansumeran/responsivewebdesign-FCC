@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.label {
+    width: 300px;
+    margin: 20px auto;
+    padding: 0 7px;
+    border: 1px solid black;
+}
+
+h1 {
+    margin: -4px 0;
+    text-align: center;
+    letter-spacing: 0.4px;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+/* Divider Section */
+.divider {
+    margin: 2px 0;
+    border-bottom: 1px solid #888989;
+}
+
+.large {
+    height: 10px;
+    background-color: black;
+    border: 0;
+}
