@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+#main {
+    margin: 0 auto;
+    background-color: #c0c5ce;
+}
+
+#title, #info {
+    text-align: center;
+}
+
+#title {
+    font-family: 'Poppins';
+    padding-top: 50px;
+}
+
+#info, .subheading, #img-caption, li {
+    font-family: 'Roboto';
+}
+
+#img-div {
+    margin: 12px;
+    padding: 18px;
+    text-align: center;
+    background-color: #e0dede65;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+#tribute-info {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#tribute-info h2 {
+    padding: 36px 0 18px;
+    text-align: center;
+}
+
+#tribute-info > ul > li {
+    margin: 24px 0;
+}
+
+#tribute-info .quote {
+    list-style: none;
+    font-family: 'Roboto';
+    font-size: 16px;
+    text-align: left;
+}
+
+#tribute-info .text {
+    padding-top: 26px;
+}
+
+#link {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 44px 0;
+}
+/* Typography */
+.bold {
+    font-weight: 700;
+}
